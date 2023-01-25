@@ -18,3 +18,29 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+
+sphinx-sqlalchemy
+=================
+
+Sphinx extension for documenting SQLAlchemy ORMs.
+
+Example
+-------
+
+::
+
+    .. sqla-model:: ../test_example.User
+
+    .. sqla-model:: ~../test_example.Address
+
+
+.. sqla-model:: ../test_example.User
+
+.. sqla-model:: ~../test_example.Address
+
+This was created from:
+
+.. literalinclude:: ../test_example.py
+    :lines: 1-
+
